@@ -50,6 +50,3 @@ TagManager:
   - name: Card
     uniqueID: 1394789861
     locked: 0
-  - name: UI_MenuCard1
-    uniqueID: 66170115
-    locked: 0

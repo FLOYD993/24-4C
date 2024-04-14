@@ -11,8 +11,8 @@ public class MenuManager : MonoBehaviour
     public float fadeSpeed = 1.5f; //速度
     private bool isFade = true; //是否开启效果
 
-    //[Header("关于我们面板")]
-    //public GameObject aboutusPanel;
+    [Header("关于我们面板")]
+    public GameObject aboutusPanel;
 
     private void Start()
     {
@@ -46,7 +46,7 @@ public class MenuManager : MonoBehaviour
     private IEnumerator FadeOutCoroutine()
     {
         rawImage.enabled = true;
-        while (rawImage.color.a <=0.98f)
+        while (rawImage.color.a <= 0.96f)
         {
             FadeOut();
             yield return null;
@@ -70,12 +70,12 @@ public class MenuManager : MonoBehaviour
 #endif
         Application.Quit();
     }
-    //public void ShowAboutUS()
-    //{
-    //    aboutusPanel.SetActive(true);
-    //}
-    //public void ExitAboutUS()
-    //{
-    //    aboutusPanel.SetActive(false);
-    //}
+    public void ShowAboutUS()
+    {
+        aboutusPanel.SetActive(true);
+    }
+    public void ExitAboutUS()
+    {
+        aboutusPanel.SetActive(false);
+    }
 }

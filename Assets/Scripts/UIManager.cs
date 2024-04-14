@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    
+
     [Header("¹ã²¥")]
     public VoidEventSO pauseEvent;
     [Header("ÊÂ¼þ¼àÌý")]
@@ -15,23 +16,11 @@ public class UIManager : MonoBehaviour
     public Button settingsBtn;
     public GameObject pausePanel;
     public Slider volumeSlider;
-
     private void Awake()
     {
         settingsBtn.onClick.AddListener(TogglePausePanel);
     }
-    private void Update()
-    {
-        //if(SceneManager.GetActiveScene().name == "Menu")
-        //{
-        //    settingsBtn.SetActive(false);
-        //}
-        //else
-        //{
-        //    settingsBtn.SetActive(true);
-        //}
-    }
-    public void TogglePausePanel()
+    private void TogglePausePanel()
     {
         if(pausePanel.activeInHierarchy)
         {
