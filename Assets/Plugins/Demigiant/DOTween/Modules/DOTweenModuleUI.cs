@@ -12,7 +12,6 @@ using DG.Tweening.Core.Enums;
 using DG.Tweening.Plugins;
 using DG.Tweening.Plugins.Options;
 using Outline = UnityEngine.UI.Outline;
-using Image = UnityEngine.UI.Image;
 using Text = UnityEngine.UI.Text;
 
 #pragma warning disable 1591
