@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -16,9 +17,13 @@ public class UIManager : MonoBehaviour
     public Button settingsBtn;
     public GameObject pausePanel;
     public Slider volumeSlider;
+
     private void Awake()
     {
-        settingsBtn.onClick.AddListener(TogglePausePanel);
+        if(SceneManager.GetActiveScene().name == "Main Scene")
+        {
+            settingsBtn.onClick.AddListener(TogglePausePanel);
+        }
     }
     private void TogglePausePanel()
     {
