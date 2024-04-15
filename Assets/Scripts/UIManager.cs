@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    
-
     [Header("¹ã²¥")]
     public VoidEventSO pauseEvent;
     [Header("ÊÂ¼þ¼àÌý")]
@@ -20,12 +18,20 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        if(SceneManager.GetActiveScene().name == "Main Scene")
-        {
-            settingsBtn.onClick.AddListener(TogglePausePanel);
-        }
+        settingsBtn.onClick.AddListener(TogglePausePanel);
     }
-    private void TogglePausePanel()
+    private void Update()
+    {
+        //if(SceneManager.GetActiveScene().name == "Menu")
+        //{
+        //    settingsBtn.SetActive(false);
+        //}
+        //else
+        //{
+        //    settingsBtn.SetActive(true);
+        //}
+    }
+    public void TogglePausePanel()
     {
         if(pausePanel.activeInHierarchy)
         {
