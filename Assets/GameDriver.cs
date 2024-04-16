@@ -8,6 +8,8 @@ using UnityEngine.Assertions;
 
 public class GameDriver : MonoBehaviour
 {
+    public bool isPlaying = false;
+
     public Texture2D cursorTexture;
     public CursorMode cursorMode = CursorMode.Auto;
     
