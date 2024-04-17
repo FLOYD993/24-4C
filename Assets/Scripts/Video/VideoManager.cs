@@ -14,34 +14,42 @@ public class VideoManager : MonoBehaviour
     public VideoPlayer videoPlayer;
     private Scene gameScene;
 
-    private GameObject managerCameraRendering;
+    //private GameObject cameraMain;
 
     private void Awake()
     {
         gameScene = SceneManager.GetSceneByName("Persistent");
-        skipButton.SetActive(true);
+        //skipButton.SetActive(true);
         videoPlayer.loopPointReached += ToEndVideo;
 
-        // 在 Awake 中查找 Persistent 场景中的 Camera 对象
-        managerCameraRendering = FindObjectOfType<Manager_CameraRendering>().gameObject;
-    }
+        //cameraMain = GameObject.Find("Camera_Main");
 
+    }
+    public void PlayVideo()
+    {
+        ToggleAudioListener(false); // 关闭 AudioListener
+        videoRawImage.SetActive(true);
+        skipButton.SetActive(true);
+        videoPlayer.Play();
+    }
     private void ToEndVideo(VideoPlayer source)
     {
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
-        ToggleAudioListener(false); // 关闭 AudioListener
+        ToggleAudioListener(true); // 打开 AudioListener
+
     }
-    public void VideoClose()
+    public void CloseVideo()
     {
-        this.gameObject.SetActive(false);
+        videoRawImage.SetActive(false);
         skipButton.SetActive(false);
+        ToggleAudioListener(true); // 打开 AudioListener
     }
     private void ToggleAudioListener(bool enable)
     {
+        GameObject managerCameraRendering = GameObject.Find("Manager_CameraRendering");
         if (managerCameraRendering != null)
         {
-            // 在 Manager_CameraRendering 对象的子物体中查找 Camera_Main
             GameObject cameraMain = managerCameraRendering.transform.Find("Camera_Main").gameObject;
             if (cameraMain != null)
             {
