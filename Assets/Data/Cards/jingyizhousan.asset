@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a7eb640529fe5b43a98e0baff553337, type: 3}
-  m_Name: Sword
+  m_Name: jingyizhousan
   m_EditorClassIdentifier: 
   Id: 1
-  Name: Sword
+  Name: jingyizhousan
   Cost: 1
-  Picture: {fileID: 21300000, guid: c34bd77facf784754b39c071c8d81187, type: 3}
+  Picture: {fileID: -1959779349, guid: 3141a858dae41cb41b3315cc28ae23c3, type: 3}
   Type: {fileID: 11400000, guid: 7e1967876f1224647b8655570cc166ca, type: 2}
   Effects:
   - {fileID: 11400000, guid: 58b3c3e1d3a9a41488ff7534e5b2f088, type: 2}
