@@ -11,6 +11,7 @@ public class VideoManager : MonoBehaviour
 {
     public GameObject skipButton;
     public GameObject videoRawImage;
+    public GameObject playVideoButton;
     public VideoPlayer videoPlayer;
     private Scene gameScene;
 
@@ -28,12 +29,14 @@ public class VideoManager : MonoBehaviour
     public void PlayVideo()
     {
         ToggleAudioListener(false); // 关闭 AudioListener
+        playVideoButton.SetActive(false);
         videoRawImage.SetActive(true);
         skipButton.SetActive(true);
         videoPlayer.Play();
     }
     private void ToEndVideo(VideoPlayer source)
     {
+        playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
         ToggleAudioListener(true); // 打开 AudioListener
@@ -41,6 +44,7 @@ public class VideoManager : MonoBehaviour
     }
     public void CloseVideo()
     {
+        playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
         ToggleAudioListener(true); // 打开 AudioListener
