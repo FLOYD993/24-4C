@@ -3,21 +3,27 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TurnIndicatorManager : MonoBehaviour
 {
     [SerializeField]
     public GameObject turnIndicator;
     [SerializeField]
-    public TextMeshProUGUI text;
-    
+    //public Text text;
+    //public TextMeshProUGUI text;
+
+    public GameObject playerTurn;
+    public GameObject enemyTurn;
+
     private const float InAnimDuration = 0.5f;
     private const float OutAnimDuration = 0.6f;
     private const float ShowcaseDuration = 2.0f;
     
     public void OnPlayerTurnBegan()
     {
-        text.text = "Player Turn";
+        playerTurn.SetActive(true);
+        enemyTurn.SetActive(false);
         var seq = DOTween.Sequence();
         seq.Append(turnIndicator.GetComponent<RectTransform>().DOScale(1f, InAnimDuration));
         seq.AppendInterval(ShowcaseDuration);
@@ -26,7 +32,8 @@ public class TurnIndicatorManager : MonoBehaviour
     
     public void OnEnemyTurnBegan()
     {
-        text.text = "Enemy Turn";
+        playerTurn.SetActive(false);
+        enemyTurn.SetActive(true);
         var seq = DOTween.Sequence();
         seq.Append(turnIndicator.GetComponent<RectTransform>().DOScale(1f, InAnimDuration));
         seq.AppendInterval(ShowcaseDuration);
