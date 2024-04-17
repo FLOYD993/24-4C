@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
 
+    public GameObject NPC;
     public GameObject dialogueBox; //整个对话窗口
     public Text dialogueText, nameText;
     public Image talkerImage;
@@ -46,6 +47,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     else
                     {
+                        NPC.SetActive(false);
                         dialogueBox.SetActive(false);
                         currentLine = 0;
                     }
