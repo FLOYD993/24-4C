@@ -30,8 +30,7 @@ public class EndTurnButton : MonoBehaviour
             return;
         }
 
-        if (cardSelectionHasArrow.HasSelectedCard() ||
-            cardSelectionNoArrow.HasSelectedCard())
+        if (cardSelectionHasArrow.HasSelectedCard() || cardSelectionNoArrow.HasSelectedCard())
         {
             return;
         }
