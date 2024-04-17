@@ -51,7 +51,7 @@ public class CardDeckManager : MonoBehaviour
 
         }
         
-        //_deckWidget.SetAmount(_deck.Count);
+        _deckWidget.SetAmount(_deck.Count);
         _discardPileWidget.SetAmount(0);
 
         return deckSize;
