@@ -1253,8 +1253,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.05610001, y: -0.056050062, z: 0}
-    m_Extent: {x: 2.604, y: 3.79035, z: 0}
+    m_Center: {x: 0.06039989, y: -0.061200023, z: 0}
+    m_Extent: {x: 2.6114001, y: 3.7940001, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2149,8 +2149,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: -0.9272499, y: 2.0921001, z: 0}
-    m_Extent: {x: 10.42025, y: 5.1236, z: 0}
+    m_Center: {x: -0.92345, y: 2.0894, z: 0}
+    m_Extent: {x: 10.42215, y: 5.1212997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4100,8 +4100,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.06040001, y: -0.0589, z: 0}
-    m_Extent: {x: 2.6045, y: 3.7928, z: 0}
+    m_Center: {x: 0.062649965, y: -0.055349946, z: 0}
+    m_Extent: {x: 2.60695, y: 3.7825499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4567,6 +4567,7 @@ MonoBehaviour:
   playerShield: {fileID: 11400000, guid: 6abfac049e38fbe469cf86d7378e2503, type: 2}
   enemyShield: {fileID: 11400000, guid: 30067c4436eb7e84ba71495e2dba0a3e, type: 2}
   playerStatus: {fileID: 11400000, guid: 8e463ffe3a49a2948ad220ff541be787, type: 2}
+  dialogPanel: {fileID: 1925825522}
 --- !u!4 &1785242774
 Transform:
   m_ObjectHideFlags: 0
@@ -6695,7 +6696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1601733856669541588, guid: 6bef48b212807494ab5cd0bacef381c6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3483189457828615816, guid: 6bef48b212807494ab5cd0bacef381c6, type: 3}
       propertyPath: m_AnchoredPosition.x

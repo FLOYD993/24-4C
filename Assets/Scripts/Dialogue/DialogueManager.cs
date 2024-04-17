@@ -22,6 +22,8 @@ public class DialogueManager : MonoBehaviour
     public string[] dialogueLines;
     [SerializeField] private int currentLine; //实时追踪当前对话窗口正在进行数组的哪一行哪一个元素文字内容输出
 
+    //public bool isTalking;
+
     private void Awake()
     {
         instance = this;
@@ -50,6 +52,7 @@ public class DialogueManager : MonoBehaviour
                         NPC.SetActive(false);
                         dialogueBox.SetActive(false);
                         currentLine = 0;
+                        GameDriver.instance.StartGameInitialize();
                     }
                 }
             }
@@ -63,6 +66,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = dialogueLines[currentLine];
         //StartCoroutine(ScrollingText());
         dialogueBox.SetActive(true);
+        //isTalking = true;
     }
     private void CheckName()
     {
