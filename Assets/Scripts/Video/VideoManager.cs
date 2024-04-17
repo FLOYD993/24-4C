@@ -30,8 +30,10 @@ public class VideoManager : MonoBehaviour
     {
         ToggleAudioListener(false); // ¹Ø±Õ AudioListener
         playVideoButton.SetActive(false);
+        videoPlayer.transform.SetAsLastSibling();
         videoRawImage.SetActive(true);
         skipButton.SetActive(true);
+        skipButton.transform.SetAsLastSibling();
         Time.timeScale = 0f;
         videoPlayer.Play();
     }
