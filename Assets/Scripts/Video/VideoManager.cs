@@ -32,6 +32,7 @@ public class VideoManager : MonoBehaviour
         playVideoButton.SetActive(false);
         videoRawImage.SetActive(true);
         skipButton.SetActive(true);
+        Time.timeScale = 0f;
         videoPlayer.Play();
     }
     private void ToEndVideo(VideoPlayer source)
@@ -39,6 +40,7 @@ public class VideoManager : MonoBehaviour
         playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
+        Time.timeScale = 1f;
         ToggleAudioListener(true); // 打开 AudioListener
 
     }
@@ -47,6 +49,7 @@ public class VideoManager : MonoBehaviour
         playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
+        Time.timeScale = 1f;
         ToggleAudioListener(true); // 打开 AudioListener
     }
     private void ToggleAudioListener(bool enable)

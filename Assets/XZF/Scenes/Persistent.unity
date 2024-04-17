@@ -695,11 +695,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playAudioEvent: {fileID: 11400000, guid: c65b68fb96c4c0c418e98aea50864c42, type: 2}
   audioClipList:
-  - {fileID: 8300000, guid: 90a531eec55a4ab48a4fb9bb93896122, type: 3}
-  - {fileID: 8300000, guid: 30c7d030526a1724dbd4c49091385b0e, type: 3}
-  - {fileID: 8300000, guid: 13c780f6c8953e741a685845ad75536a, type: 3}
-  - {fileID: 8300000, guid: 32f08582d34b6b346a5d64b28c8b0c53, type: 3}
-  - {fileID: 8300000, guid: 500d238a7cca327499ec442c41b7ad47, type: 3}
+  - {fileID: 8300000, guid: 6c0a58ce704ddb0479d58c016a0993ce, type: 3}
+  - {fileID: 8300000, guid: 1cc871146a3fc3848b9cb21d8023dcec, type: 3}
+  - {fileID: 8300000, guid: d1243e52ad891dc4bb3c4c31a6aa45c9, type: 3}
+  - {fileID: 8300000, guid: d7332d7ffa5f45a4f9da921327530888, type: 3}
+  - {fileID: 8300000, guid: 3dc187f0dcfc6c4459464d2d7c69a42e, type: 3}
   playOnEnable: 1
 --- !u!4 &2134977728
 Transform:
