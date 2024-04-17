@@ -9,8 +9,8 @@ public class HpWidget : MonoBehaviour
 {
      [SerializeField]
      private Image hpBar;
-     //[SerializeField]
-     //private Image hpBarBackground;
+     [SerializeField]
+     private Image hpBarBackground;
      [SerializeField]
      private TextMeshProUGUI hpText;
      [SerializeField]
@@ -52,7 +52,7 @@ public class HpWidget : MonoBehaviour
 
           var sequence = DOTween.Sequence();
           sequence.AppendInterval(0.5f);
-          //sequence.Append(hpBarBackground.DOFillAmount(newValue, 0.2f));
+          sequence.Append(hpBarBackground.DOFillAmount(newValue, 0.2f));
           sequence.SetEase(Ease.InSine);
 
           hpText.text = $"{value.ToString()} / {maxValue.ToString()}";
