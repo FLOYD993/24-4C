@@ -950,6 +950,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &549106000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6693044359339293852, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
+  m_PrefabInstance: {fileID: 1489480919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &561580584 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7655388304830061464, guid: b2ae1cf3bded8044fa368e3ccadcf00a, type: 3}
@@ -1248,8 +1253,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.062399983, y: -0.051349998, z: 0}
-    m_Extent: {x: 2.6004, y: 3.7902498, z: 0}
+    m_Center: {x: 0.05610001, y: -0.056050062, z: 0}
+    m_Extent: {x: 2.604, y: 3.79035, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2144,8 +2149,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: -0.93095016, y: 2.0878, z: 0}
-    m_Extent: {x: 10.41765, y: 5.1278, z: 0}
+    m_Center: {x: -0.9272499, y: 2.0921001, z: 0}
+    m_Extent: {x: 10.42025, y: 5.1236, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3207,6 +3212,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 948648817}
     m_Modifications:
+    - target: {fileID: 3093709007702928315, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
+      propertyPath: m_Text
+      value: "\u5931\u8D25"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539989739331262654, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
+      propertyPath: DefeatText
+      value: 
+      objectReference: {fileID: 549106000}
+    - target: {fileID: 3539989739331262654, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
+      propertyPath: VictoryText
+      value: 
+      objectReference: {fileID: 1751447795}
     - target: {fileID: 4052298589494963999, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -4083,8 +4100,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.057500005, y: -0.06575, z: 0}
-    m_Extent: {x: 2.6128998, y: 3.79045, z: 0}
+    m_Center: {x: 0.06040001, y: -0.0589, z: 0}
+    m_Extent: {x: 2.6045, y: 3.7928, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4200,6 +4217,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1751447795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9120685551513936930, guid: d2b61c51e74f8454b86a7ae827d4151f, type: 3}
+  m_PrefabInstance: {fileID: 1489480919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1752876527
 GameObject:
   m_ObjectHideFlags: 0
