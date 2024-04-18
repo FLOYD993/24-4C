@@ -103,11 +103,11 @@ public class GameDriver : MonoBehaviour
             player = Instantiate(template.Prefab, playerPivot);
             Assert.IsNotNull(player);
 
-            playerHp.Value = 20;
+            playerHp.Value = 50;
             playerShield.Value = 0;
             playerManaManager.SetDefaultMana(3);
             
-            CreateHpWidget(playerHpWidget, player, playerHp, 30, playerShield);
+            CreateHpWidget(playerHpWidget, player, playerHp, 50, playerShield);
             CreateStatusWidget(playerStatusWidget, player);
             
             manaWidget.Initialize(playerManaManager.playerManaVariable);
@@ -149,10 +149,10 @@ public class GameDriver : MonoBehaviour
 
             Assert.IsNotNull(enemy);
 
-            enemyHp.Value = 20;
+            enemyHp.Value = 50;
             enemyShield.Value = 0;
             
-            CreateHpWidget(enemyHpWidget, enemy, enemyHp, 20, enemyShield);
+            CreateHpWidget(enemyHpWidget, enemy, enemyHp, 50, enemyShield);
             CreateIntentWidget(enemyIntentWidget, enemy);
             
             var obj = enemy.GetComponent<CharacterObject>();

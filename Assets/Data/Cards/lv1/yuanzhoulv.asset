@@ -16,6 +16,6 @@ MonoBehaviour:
   Name: "\u5706\u5468\u7387"
   Cost: 1
   Picture: {fileID: -502578515, guid: 7813a2ad1784baa4d952ba9d9712b1b6, type: 3}
-  Type: {fileID: 11400000, guid: 1c88b86af3360cc48a39666ab168e87f, type: 2}
+  Type: {fileID: 11400000, guid: 7e1967876f1224647b8655570cc166ca, type: 2}
   Effects:
-  - {fileID: 11400000, guid: 8b373415d7b6aab47a608f1fc912dc57, type: 2}
+  - {fileID: 11400000, guid: 58b3c3e1d3a9a41488ff7534e5b2f088, type: 2}

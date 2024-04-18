@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8004f52453136e41ab1bb06f054d11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 1
+  levelIndex: 2
   fadeSpeed: 1.5
   rawImage: {fileID: 1828474424}
 --- !u!4 &109759827
@@ -1144,8 +1144,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.05979991, y: -0.056049943, z: 0}
-    m_Extent: {x: 2.6127, y: 3.78295, z: 0}
+    m_Center: {x: 0.05729997, y: -0.05700004, z: 0}
+    m_Extent: {x: 2.6123, y: 3.7907, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1312,12 +1312,12 @@ RectTransform:
   - {fileID: 1261026548}
   - {fileID: 2060580171}
   - {fileID: 1489480920}
-  - {fileID: 1772294994}
   - {fileID: 1645499903}
   - {fileID: 2078877116}
   - {fileID: 1946968134}
-  - {fileID: 1828474423}
   - {fileID: 1925825523}
+  - {fileID: 1772294994}
+  - {fileID: 1828474423}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2124,8 +2124,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: -0.91974974, y: 2.0882502, z: 0}
-    m_Extent: {x: 10.421949, y: 5.12035, z: 0}
+    m_Center: {x: -0.9214997, y: 2.0864499, z: 0}
+    m_Extent: {x: 10.414101, y: 5.1223497, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3991,8 +3991,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.05855, y: -0.06624997, z: 0}
-    m_Extent: {x: 2.6093502, y: 3.78625, z: 0}
+    m_Center: {x: 0.058499932, y: -0.060199976, z: 0}
+    m_Extent: {x: 2.6111999, y: 3.7855, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

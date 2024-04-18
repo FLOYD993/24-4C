@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d7753b7b594f1e4db0e9466a8ee852a, type: 3}
   m_Name: PlayerHp
   m_EditorClassIdentifier: 
-  Value: 20
+  Value: 50
   ValueChangedEvent: {fileID: 11400000, guid: c20c6e1b7909ad44c9b849aa61c596a4, type: 2}

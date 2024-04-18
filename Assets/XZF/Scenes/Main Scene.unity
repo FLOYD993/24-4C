@@ -409,10 +409,10 @@ RectTransform:
   - {fileID: 1423386566}
   - {fileID: 1427588365}
   - {fileID: 529655669}
-  - {fileID: 2100088381}
   - {fileID: 1455469010}
   - {fileID: 1068229991}
   - {fileID: 1944350124}
+  - {fileID: 2100088381}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1035,7 +1035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321157155904268539, guid: 0d907679073166242849119d7ad45c22, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8539713849510897498, guid: 0d907679073166242849119d7ad45c22, type: 3}
       propertyPath: m_Pivot.x
@@ -1137,7 +1137,7 @@ PrefabInstance:
     - target: {fileID: 321194603228979, guid: 6d688b89b07b175489f88724f6a6f18e, type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 1b69231d4bb646f439066702dd1fa258, type: 3}
+      objectReference: {fileID: 32900000, guid: b00da0da2525c824bba56874de7c4630, type: 3}
     - target: {fileID: 321194603228979, guid: 6d688b89b07b175489f88724f6a6f18e, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.data[0]
       value: 0.743
@@ -2694,7 +2694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842881609753894979, guid: 3a79b9499e0720345bc7badade73f86c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

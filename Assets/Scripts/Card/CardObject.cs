@@ -9,13 +9,13 @@ using UnityEngine.Rendering;
 
 public class CardObject : MonoBehaviour
 {
-    [SerializeField] private TMP_Text costText;
-    [SerializeField] private TMP_Text nameText;
-    [SerializeField] private TMP_Text typeText;
-    [SerializeField] private TMP_Text descriptionText;
+    [SerializeField] private TextMeshPro costText;
+    [SerializeField] private TextMeshPro nameText;
+    [SerializeField] private TextMeshPro typeText;
+    [SerializeField] private TextMeshPro descriptionText;
 
     [SerializeField] private SpriteRenderer picture;
-    
+
     public CardTemplate template;
     public RuntimeCard runtimeCard;
 
@@ -76,7 +76,7 @@ public class CardObject : MonoBehaviour
         _savedRotation = rotation;
         _savedSortingOrder = _sortingGroup.sortingOrder;
     }
-    
+
 
     public void Reset(Action onComplete)
     {

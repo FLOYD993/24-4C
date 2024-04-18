@@ -16,7 +16,7 @@ public class VideoManager : MonoBehaviour
     public VideoPlayer videoPlayer;
     private Scene gameScene;
 
-    public int hasPlayedInMain = 1; //1 = false
+    public int hasPlayedInMain = 0; //0 = false
     //private GameObject cameraMain;
 
     private void Awake()
@@ -30,17 +30,22 @@ public class VideoManager : MonoBehaviour
         //    playButton.onClick.Invoke();
         //}
         //cameraMain = GameObject.Find("Camera_Main");
-
-    }
-    private void Start()
-    {
-        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
-        if (SceneManager.GetActiveScene().name == "Main Scene" && PlayerPrefs.GetInt("l" + hasPlayedInMain) > 0)
+        //Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
+        if (SceneManager.GetActiveScene().name == "Main Scene" && PlayerPrefs.GetInt("l" + hasPlayedInMain) == 0)
         {
-            //PlayVideo();
             playButton.onClick.AddListener(PlayVideo);
             playButton.onClick.Invoke();
         }
+    }
+    private void Start()
+    {
+        
+        //if (SceneManager.GetActiveScene().name == "Main Scene" && PlayerPrefs.GetInt("l" + hasPlayedInMain) > 0)
+        //{
+        //    //PlayVideo();
+        //    playButton.onClick.AddListener(PlayVideo);
+        //    playButton.onClick.Invoke();
+        //}
     }
     public void PlayVideo()
     {
@@ -50,8 +55,7 @@ public class VideoManager : MonoBehaviour
             
         //    //hasPlayedInMain = 1;
         //}
-        PlayerPrefs.SetInt("" + hasPlayedInMain, 0);
-        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
+        
         playVideoButton.SetActive(false);
         videoPlayer.transform.SetAsLastSibling();
         videoRawImage.SetActive(true);
@@ -62,6 +66,9 @@ public class VideoManager : MonoBehaviour
     }
     private void ToEndVideo(VideoPlayer source)
     {
+        PlayerPrefs.SetInt("l" + hasPlayedInMain, 1);
+        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
+
         playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);
@@ -71,6 +78,10 @@ public class VideoManager : MonoBehaviour
     }
     public void CloseVideo()
     {
+        PlayerPrefs.SetInt("l" + hasPlayedInMain, 1);
+
+        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
+
         playVideoButton.SetActive(true);
         videoRawImage.SetActive(false);
         skipButton.SetActive(false);

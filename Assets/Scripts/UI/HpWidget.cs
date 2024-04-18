@@ -48,15 +48,15 @@ public class HpWidget : MonoBehaviour
      {
           var newValue = value / (float)maxValue;
 
-          hpBar.DOFillAmount(newValue, 0.2f).SetEase(Ease.InSine);
+          hpBar.DOFillAmount(Mathf.Abs(1-newValue), 0.2f).SetEase(Ease.InSine);
 
           var sequence = DOTween.Sequence();
           sequence.AppendInterval(0.5f);
           //sequence.Append(hpBarBackground.DOFillAmount(newValue, 0.2f));
           sequence.SetEase(Ease.InSine);
 
-          hpText.text = $"{value.ToString()} / {maxValue.ToString()}";
-          hpBorderText.text = $"{value.ToString()} / {maxValue.ToString()}";
+          hpText.text = $"{Mathf.Abs(maxValue-value).ToString()} / {maxValue.ToString()}";
+          hpBorderText.text = $"{Mathf.Abs(maxValue - value).ToString()} / {maxValue.ToString()}";
      }
 
      public void OnHpChanged(int value)
