@@ -65,8 +65,8 @@ public class CardObject : MonoBehaviour
         costText.text = template.Cost.ToString();
         nameText.text = template.Name;
         typeText.text = template.Type.TypeName;
-        var builder = new StringBuilder();
-        descriptionText.text = builder.ToString();
+        //var builder = new StringBuilder();
+        descriptionText.text = template.description;//builder.ToString();
         picture.sprite = template.Picture;
     }
 

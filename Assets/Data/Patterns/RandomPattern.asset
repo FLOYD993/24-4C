@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Effects:
   - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
+  - {fileID: 11400000, guid: 0fe16c177275e3940a138b97fd1721f7, type: 2}
+  - {fileID: 11400000, guid: 0b96dad0404bb204d81b3e3a56a1b1e3, type: 2}
   Probabilities:
   - Value: 75
     Sprite: {fileID: 21300000, guid: c758bb61eb38b4f748fea98ac8d6fcba, type: 3}

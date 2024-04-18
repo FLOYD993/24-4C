@@ -10,5 +10,6 @@ public class CardTemplate : ScriptableObject
     public int Cost;
     public Sprite Picture;
     public CardType Type;
+    public string description;
     public List<Effect> Effects = new List<Effect>();
 }

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: zulv
   m_EditorClassIdentifier: 
   Id: 5
-  Name: zulv
+  Name: "\u7956\u7387"
   Cost: 2
   Picture: {fileID: -1356683426, guid: 8f10ee10cc2d5f74d8ee04a458482ce6, type: 3}
   Type: {fileID: 11400000, guid: 229e395e0f25fa540a2d38e8a67765e2, type: 2}
   Effects:
-  - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
+  - {fileID: 11400000, guid: 0fe16c177275e3940a138b97fd1721f7, type: 2}

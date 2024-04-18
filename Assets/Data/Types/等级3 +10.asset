@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3de34460e43e0a44c800209a3c9b4c13, type: 3}
-  m_Name: Gain Hp Effect
+  m_Script: {fileID: 11500000, guid: 8be326519b1abb346a211859055837dd, type: 3}
+  m_Name: "\u7B49\u7EA73 +10"
   m_EditorClassIdentifier: 
-  SourceActions: []
-  TargetActions: []
-  Target: 0
-  Value: 10
+  TypeName: "\u7B49\u7EA72"

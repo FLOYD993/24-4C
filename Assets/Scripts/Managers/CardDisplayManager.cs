@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class CardDisplayManager : MonoBehaviour
 {
@@ -103,8 +104,14 @@ public class CardDisplayManager : MonoBehaviour
                     });
 
                     card.transform.DORotateQuaternion(_rotations[j], time);
-                    card.transform.DOScale(_originalCardScale, time);
-
+                    //
+                    if(SceneManager.GetActiveScene().name == "Level2")
+                    {
+                        card.transform.DOScale(_originalCardScale*0.7f, time);
+                    }
+                    else
+                        card.transform.DOScale(_originalCardScale, time);
+                    //
                     if (j == _handCards.Count - 1)
                     {
                         move.OnComplete(() =>

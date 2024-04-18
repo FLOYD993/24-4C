@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: jingyizhousan
   m_EditorClassIdentifier: 
   Id: 2
-  Name: jingyizhousan
+  Name: "\u5F84\u4E00\u5468\u4E09"
   Cost: 1
   Picture: {fileID: -1959779349, guid: 3141a858dae41cb41b3315cc28ae23c3, type: 3}
   Type: {fileID: 11400000, guid: 7e1967876f1224647b8655570cc166ca, type: 2}
   Effects:
-  - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
+  - {fileID: 11400000, guid: 0fe16c177275e3940a138b97fd1721f7, type: 2}
