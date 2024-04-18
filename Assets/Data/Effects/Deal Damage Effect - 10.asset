@@ -17,5 +17,5 @@ MonoBehaviour:
   TargetActions:
   - Group: {fileID: 11400000, guid: 01e4415b58385bb48b2c19396cbc0aad, type: 2}
   - Group: {fileID: 11400000, guid: 3965234da9f0f544d9f787ad7584cc2a, type: 2}
-  Target: 0
-  Value: 5
+  Target: 1
+  Value: 10
