@@ -9,20 +9,18 @@ using UnityEngine.UI;
 
 public class EndBattlePopup : MonoBehaviour
 {
-    //[SerializeField]
-    //private TextMeshProUGUI titleText;
-    //[SerializeField]
-    //private TextMeshProUGUI descriptionText;
+    [SerializeField]
+    private TextMeshProUGUI titleText;
+    [SerializeField]
+    private TextMeshProUGUI descriptionText;
 
-    public GameObject VictoryText;
-    public GameObject DefeatText;
     [SerializeField]
     private Button endOfGameButton;
 
     private CanvasGroup canvasGroup;
 
-    //private const string VictoryText = "Victory";
-    //private const string DefeatText = "Defeat";
+    private const string VictoryText = "Victory";
+    private const string DefeatText = "Defeat";
 
     private const float FadeInTime = 0.4f;
 
@@ -40,18 +38,14 @@ public class EndBattlePopup : MonoBehaviour
 
     public void SetVictoryText()
     {
-        VictoryText.SetActive(true);
-        DefeatText.SetActive(false);
-        //titleText.text = VictoryText;
-        //descriptionText.text = string.Empty;
+        titleText.text = VictoryText;
+        descriptionText.text = string.Empty;
     }
     
     public void SetDefeatText()
     {
-        VictoryText.SetActive(false);
-        DefeatText.SetActive(true);
-        //titleText.text = DefeatText;
-        //descriptionText.text = string.Empty;
+        titleText.text = DefeatText;
+        descriptionText.text = string.Empty;
     }
 
     public void OnEndOfGameButtonPressed()
