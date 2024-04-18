@@ -15,15 +15,21 @@ EditorBuildSettings:
     path: Assets/DragonCrasher/Scenes/Level1.unity
     guid: 90be4cccb368a5d438d95afce4944224
   - enabled: 1
+    path: Assets/DragonCrasher/Scenes/Level2.unity
+    guid: 4fe629cc22ad81e46a885cc1655dbaf8
+  - enabled: 1
+    path: Assets/DragonCrasher/Scenes/Level3.unity
+    guid: b3396f9475c408448993919ee7825f89
+  - enabled: 0
     path: Assets/XZF/Scenes/Level2.unity
     guid: d28c1a32bf361d844b5185285933f72a
-  - enabled: 1
+  - enabled: 0
     path: Assets/XZF/Scenes/Level3.unity
     guid: 847db7a0b3efc0348a6421f3385315ac
   - enabled: 1
     path: Assets/XZF/Scenes/Persistent.unity
     guid: 4832fdf852d3ef14295f9b88a66e6327
-  - enabled: 1
+  - enabled: 0
     path: Assets/XZF/Scenes/Level1xx.unity
     guid: cd8ac6f44e8164d4d889f75d0890d214
   m_configObjects:

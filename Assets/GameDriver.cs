@@ -114,7 +114,7 @@ public class GameDriver : MonoBehaviour
             
             foreach (var item in template.StartingDeck.Items)
             {
-                
+                //Debug.Log(template.StartingDeck);
                 for (int i = 0; i < item.Amount; i++)
                 {
                     Debug.Log(item.Card);

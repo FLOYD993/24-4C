@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a7eb640529fe5b43a98e0baff553337, type: 3}
-  m_Name: si
+  m_Name: 1_3
   m_EditorClassIdentifier: 
-  Id: 2
-  Name: "\u8086"
+  Id: 6
+  Name: "\u53C1"
   Cost: 1
-  Picture: {fileID: 1530512717, guid: 02c067f725c6da54a9adf63d1887eb6b, type: 3}
-  Type: {fileID: 11400000, guid: 7e1967876f1224647b8655570cc166ca, type: 2}
+  Picture: {fileID: -650951345, guid: 8cef9b24c406d48409a4c7fef1279eb2, type: 3}
+  Type: {fileID: 11400000, guid: 1c88b86af3360cc48a39666ab168e87f, type: 2}
   Effects:
-  - {fileID: 11400000, guid: 58b3c3e1d3a9a41488ff7534e5b2f088, type: 2}
+  - {fileID: 11400000, guid: 8b373415d7b6aab47a608f1fc912dc57, type: 2}

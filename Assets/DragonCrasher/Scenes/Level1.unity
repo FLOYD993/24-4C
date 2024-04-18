@@ -1253,8 +1253,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.057750106, y: -0.056349993, z: 0}
-    m_Extent: {x: 2.61455, y: 3.78835, z: 0}
+    m_Center: {x: 0.064800024, y: -0.057150006, z: 0}
+    m_Extent: {x: 2.6068, y: 3.7793498, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2149,8 +2149,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: -0.9245, y: 2.0883498, z: 0}
-    m_Extent: {x: 10.416201, y: 5.12215, z: 0}
+    m_Center: {x: -0.92630005, y: 2.0817, z: 0}
+    m_Extent: {x: 10.4136, y: 5.1228, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4100,8 +4100,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.06519997, y: -0.058399916, z: 0}
-    m_Extent: {x: 2.6065998, y: 3.7911, z: 0}
+    m_Center: {x: 0.058150053, y: -0.06459999, z: 0}
+    m_Extent: {x: 2.61305, y: 3.7856, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4681,7 +4681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842881609753894979, guid: 3a79b9499e0720345bc7badade73f86c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6934,6 +6934,10 @@ PrefabInstance:
     - target: {fileID: 3057040527997169586, guid: b2ae1cf3bded8044fa368e3ccadcf00a, type: 3}
       propertyPath: m_Name
       value: TurnIndicator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057040527997169586, guid: b2ae1cf3bded8044fa368e3ccadcf00a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5469375917361181569, guid: b2ae1cf3bded8044fa368e3ccadcf00a, type: 3}
       propertyPath: m_IsActive

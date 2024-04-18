@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 599fc0be030791d4fa9aabf57f788145, type: 3}
-  m_Name: Wolfman
+  m_Name: Level2_player
   m_EditorClassIdentifier: 
-  Name: Wolfman
+  Name: level2_player
   Prefab: {fileID: 9094245467463176565, guid: 2c00b8d9cb384774481c89588c6d82aa, type: 3}
-  StartingDeck: {fileID: 11400000, guid: e6ba108c263dc464291501993331cb76, type: 2}
+  StartingDeck: {fileID: 11400000, guid: bae27a043eb82ee43a514610e91b3cd2, type: 2}
