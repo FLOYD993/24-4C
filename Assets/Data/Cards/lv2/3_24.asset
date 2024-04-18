@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a7eb640529fe5b43a98e0baff553337, type: 3}
-  m_Name: ershiwu
+  m_Name: 3_24
   m_EditorClassIdentifier: 
-  Id: 5
-  Name: "\u8D30\u62FE\u4F0D"
+  Id: 13
+  Name: "\u8D30\u62FE\u8086"
   Cost: 2
-  Picture: {fileID: -263633016, guid: 3243ae5ca622075438edcf65588e7214, type: 3}
+  Picture: {fileID: -720070159, guid: 9759a9dfb193f9f4cb144b7227d63773, type: 3}
   Type: {fileID: 11400000, guid: 229e395e0f25fa540a2d38e8a67765e2, type: 2}
   Effects:
   - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}

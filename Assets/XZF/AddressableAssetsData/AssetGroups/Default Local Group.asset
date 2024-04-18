@@ -27,6 +27,26 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0323cb826ee0544c9be1f13f11a36f0
+    m_Address: Assets/Data/Heros/Level2_player.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf0467166c277a04faeadb14effc11c7
+    m_Address: Assets/Data/Enemies/Level2_enemy.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15b7b8db13d8edf46992ec5dbf8fdf05
+    m_Address: Assets/Data/Heros/Level3_player.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97070f3f5b87c744085bedec4c1e1484
+    m_Address: Assets/Data/Enemies/Level3_enemy.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: afc27d4c70f11bf4f838a39b673a4e8f, type: 2}
   m_SchemaSet:

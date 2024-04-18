@@ -22,13 +22,13 @@ MonoBehaviour:
     Amount: 3
   - Card: {fileID: 11400000, guid: ec94278730689e64a927438a3eb964b5, type: 2}
     Amount: 3
-  - Card: {fileID: 11400000, guid: 416840bf986ae0541991bc45eaad5bee, type: 2}
-    Amount: 3
   - Card: {fileID: 11400000, guid: e78937d7e15cd9d4aa3981945f1ab99d, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 416840bf986ae0541991bc45eaad5bee, type: 2}
     Amount: 3
   - Card: {fileID: 11400000, guid: 4617045e3b5ff2943b38e9f100a0e345, type: 2}
     Amount: 3
-  - Card: {fileID: 11400000, guid: 512e6af72873b994a9a8d94b52bb0024, type: 2}
-    Amount: 3
   - Card: {fileID: 11400000, guid: 785d9a819570af04799c9258e5e5a8d8, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 512e6af72873b994a9a8d94b52bb0024, type: 2}
     Amount: 3
