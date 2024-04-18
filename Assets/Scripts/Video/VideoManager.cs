@@ -12,9 +12,11 @@ public class VideoManager : MonoBehaviour
     public GameObject skipButton;
     public GameObject videoRawImage;
     public GameObject playVideoButton;
+    public Button playButton;
     public VideoPlayer videoPlayer;
     private Scene gameScene;
 
+    public int hasPlayedInMain = 1; //1 = false
     //private GameObject cameraMain;
 
     private void Awake()
@@ -22,16 +24,39 @@ public class VideoManager : MonoBehaviour
         gameScene = SceneManager.GetSceneByName("Persistent");
         //skipButton.SetActive(true);
         videoPlayer.loopPointReached += ToEndVideo;
-
+        //if(SceneManager.GetActiveScene().name == "Main Scene")
+        //{
+        //    playButton.onClick.AddListener(PlayVideo);
+        //    playButton.onClick.Invoke();
+        //}
         //cameraMain = GameObject.Find("Camera_Main");
 
+    }
+    private void Start()
+    {
+        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
+        if (SceneManager.GetActiveScene().name == "Main Scene" && PlayerPrefs.GetInt("l" + hasPlayedInMain) > 0)
+        {
+            //PlayVideo();
+            playButton.onClick.AddListener(PlayVideo);
+            playButton.onClick.Invoke();
+        }
     }
     public void PlayVideo()
     {
         ToggleAudioListener(false); // ¹Ø±Õ AudioListener
+        //if(SceneManager.GetActiveScene().name == "Main Scene")
+        //{
+            
+        //    //hasPlayedInMain = 1;
+        //}
+        PlayerPrefs.SetInt("" + hasPlayedInMain, 0);
+        Debug.Log(PlayerPrefs.GetInt("l" + hasPlayedInMain));
         playVideoButton.SetActive(false);
+        videoPlayer.transform.SetAsLastSibling();
         videoRawImage.SetActive(true);
         skipButton.SetActive(true);
+        skipButton.transform.SetAsLastSibling();
         Time.timeScale = 0f;
         videoPlayer.Play();
     }
