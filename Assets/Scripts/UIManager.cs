@@ -36,13 +36,13 @@ public class UIManager : MonoBehaviour
         if(pausePanel.activeInHierarchy)
         {
             pausePanel.SetActive(false);
-            //Time.timeScale = 1;
+            Time.timeScale = 1;
         }
         else
         {
             pauseEvent.RaisedEvent();
             pausePanel.SetActive(true);
-            //Time.timeScale = 0;
+            Time.timeScale = 0;
         }
     }
     private void OnEnable()

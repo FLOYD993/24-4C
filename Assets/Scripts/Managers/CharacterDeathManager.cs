@@ -6,8 +6,6 @@ public class CharacterDeathManager : BaseManager
 {
     [SerializeField] private float endBattlePopupDelay = 1.0f;
     [SerializeField] private EndBattlePopup endBattlePopup;
-
-
     
     public void OnPlayerHpChanged(int hp)
     {
@@ -28,9 +26,7 @@ public class CharacterDeathManager : BaseManager
 
     public void EndGame(bool characterDied)
     {
-        
         StartCoroutine(ShowEndBattlePopup(characterDied));
-        
     }
 
     private IEnumerator ShowEndBattlePopup(bool characterDied)
@@ -55,9 +51,6 @@ public class CharacterDeathManager : BaseManager
 
             var turnManagement = FindFirstObjectByType<TurnManager>();
             turnManagement.SetEndOfGame(true);
-            //Time.timeScale = 0f;
-
-
         }
     }
     
