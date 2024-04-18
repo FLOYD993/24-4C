@@ -9,10 +9,10 @@ using UnityEngine.Rendering;
 
 public class CardObject : MonoBehaviour
 {
-    [SerializeField] private TextMeshPro costText;
-    [SerializeField] private TextMeshPro nameText;
-    [SerializeField] private TextMeshPro typeText;
-    [SerializeField] private TextMeshPro descriptionText;
+    [SerializeField] private TMP_Text costText;
+    [SerializeField] private TMP_Text nameText;
+    [SerializeField] private TMP_Text typeText;
+    [SerializeField] private TMP_Text descriptionText;
 
     [SerializeField] private SpriteRenderer picture;
     

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ae828db6d9e8f47a1e94e9e5cda1be, type: 3}
+  m_Name: CardBank3
+  m_EditorClassIdentifier: 
+  Name: PlayerDeck3
+  Items:
+  - Card: {fileID: 11400000, guid: 89bee12e02e326447abf68fef05600fe, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 5431190560454124eb312aaf0e7199e6, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 354502bdebb3a354aa6244ba6d33023a, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 123b669402dd3a942bb66f0535ccb205, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: cf3629946a958c14fba3c7c584fd3690, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 1687cd135f51e7646978df82e11c8b82, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 3ab6de882715dc542b0fd557b97f12f4, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 0f7b461d2f9573048851210b5c39101e, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 76bec7a8c04b10b4292a42615dde1c55, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: d53cd2a8b95995941a5824aea4d83432, type: 2}
+    Amount: 10

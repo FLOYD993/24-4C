@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8ae828db6d9e8f47a1e94e9e5cda1be, type: 3}
-  m_Name: CardBank
+  m_Name: CardBank1
   m_EditorClassIdentifier: 
   Name: PlayerDeck
   Items:
@@ -19,4 +19,8 @@ MonoBehaviour:
   - Card: {fileID: 11400000, guid: 140f8eb8d69c1b24abaa0e60e8c709dc, type: 2}
     Amount: 3
   - Card: {fileID: 11400000, guid: 34922ec8f6b280e4dbb9d5da47b13d72, type: 2}
-    Amount: 2
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 594fccd17424df14081ba92b02dcae46, type: 2}
+    Amount: 3
+  - Card: {fileID: 11400000, guid: 062ceafffc3a736499f5252c3028dd39, type: 2}
+    Amount: 3

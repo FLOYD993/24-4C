@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a7eb640529fe5b43a98e0baff553337, type: 3}
-  m_Name: jingyizhousan
+  m_Name: zulv
   m_EditorClassIdentifier: 
-  Id: 1
-  Name: jingyizhousan
-  Cost: 1
-  Picture: {fileID: -1959779349, guid: 3141a858dae41cb41b3315cc28ae23c3, type: 3}
-  Type: {fileID: 11400000, guid: 7e1967876f1224647b8655570cc166ca, type: 2}
+  Id: 5
+  Name: zulv
+  Cost: 2
+  Picture: {fileID: -1356683426, guid: 8f10ee10cc2d5f74d8ee04a458482ce6, type: 3}
+  Type: {fileID: 11400000, guid: 229e395e0f25fa540a2d38e8a67765e2, type: 2}
   Effects:
-  - {fileID: 11400000, guid: 58b3c3e1d3a9a41488ff7534e5b2f088, type: 2}
+  - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}

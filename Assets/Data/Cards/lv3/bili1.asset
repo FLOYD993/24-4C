@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a7eb640529fe5b43a98e0baff553337, type: 3}
-  m_Name: Potion
+  m_Name: bili1
   m_EditorClassIdentifier: 
-  Id: 3
-  Name: Potion
+  Id: 5
+  Name: "\u6BD4\u4F8B"
   Cost: 2
-  Picture: {fileID: 21300000, guid: 7598aa95320a94a509a76de3d47aa87e, type: 3}
+  Picture: {fileID: 1824545357, guid: fb91a79e3a1fa0c4ca7087f238249a64, type: 3}
   Type: {fileID: 11400000, guid: 229e395e0f25fa540a2d38e8a67765e2, type: 2}
   Effects:
   - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
