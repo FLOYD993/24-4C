@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/DragonCrasher/Scenes/Level3.unity.meta
 guid: feb23ccd180c9234287d5ce3a1ef4407
 DefaultImporter:
+========
+guid: e4e42d535b64711488379e6784d2b2d6
+PrefabImporter:
+>>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj"):Assets/Prefabs/UI/enemyTurn.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

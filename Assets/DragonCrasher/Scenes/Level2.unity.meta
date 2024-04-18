@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/DragonCrasher/Scenes/Level2.unity.meta
 guid: eafa21c1e6f114a47b05e66339c61f1f
+========
+guid: 30da0fb6c5f0eab42b745a66a6916744
+folderAsset: yes
+>>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj"):Assets/计设美术资源/Video.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

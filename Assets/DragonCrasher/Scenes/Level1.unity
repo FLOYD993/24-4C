@@ -461,7 +461,11 @@ Transform:
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &155489569
+=======
+--- !u!1001 &214395690
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
 --- !u!1001 &214395690
 >>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
@@ -470,6 +474,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 948648817}
     m_Modifications:
@@ -558,6 +563,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 =======
+=======
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2067625746536435641, guid: 650450b5ea9be214583b466b8f760421, type: 3}
@@ -1372,8 +1379,13 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.06579995, y: -0.056800008, z: 0}
     m_Extent: {x: 2.6036, y: 3.7851, z: 0}
+=======
+    m_Center: {x: 0.061349988, y: -0.04974997, z: 0}
+    m_Extent: {x: 2.6104498, y: 3.78825, z: 0}
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
     m_Center: {x: 0.061349988, y: -0.04974997, z: 0}
     m_Extent: {x: 2.6104498, y: 3.78825, z: 0}
@@ -1549,6 +1561,11 @@ RectTransform:
   - {fileID: 2078877116}
   - {fileID: 1946968134}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - {fileID: 1828474423}
+  - {fileID: 1925825523}
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
   - {fileID: 1828474423}
   - {fileID: 1925825523}
@@ -2276,8 +2293,13 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: -0.9242501, y: 2.0847998, z: 0}
     m_Extent: {x: 10.427151, y: 5.1194, z: 0}
+=======
+    m_Center: {x: -0.9320998, y: 2.0881, z: 0}
+    m_Extent: {x: 10.419701, y: 5.1211, z: 0}
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
     m_Center: {x: -0.9320998, y: 2.0881, z: 0}
     m_Extent: {x: 10.419701, y: 5.1211, z: 0}
@@ -4119,7 +4141,11 @@ PrefabInstance:
     - target: {fileID: 1972706827989850023, guid: c78b01991cad98a4fbfbcff2a9a4ce11, type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -67
+=======
+      value: -144
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
       value: -144
 >>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
@@ -4236,8 +4262,13 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.05980003, y: -0.051150084, z: 0}
     m_Extent: {x: 2.6016002, y: 3.78705, z: 0}
+=======
+    m_Center: {x: 0.06375003, y: -0.055999994, z: 0}
+    m_Extent: {x: 2.60695, y: 3.7872, z: 0}
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
     m_Center: {x: 0.06375003, y: -0.055999994, z: 0}
     m_Extent: {x: 2.60695, y: 3.7872, z: 0}
@@ -5675,7 +5706,11 @@ PrefabInstance:
       propertyPath: playVideoButton
       value: 
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
+=======
+      objectReference: {fileID: 628279749}
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 =======
       objectReference: {fileID: 628279749}
 >>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
@@ -6726,7 +6761,10 @@ Transform:
   m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 --- !u!1001 &7245731687085991401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6989,6 +7027,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2ae1cf3bded8044fa368e3ccadcf00a, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
+=======
 >>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj")
 --- !u!1001 &8723506188476019675
 PrefabInstance:
