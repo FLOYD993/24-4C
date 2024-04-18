@@ -8,6 +8,7 @@ using UnityEngine.Assertions;
 
 public class GameDriver : MonoBehaviour
 {
+    public static GameDriver instance;
     public bool isPlaying = false;
 
     public Texture2D cursorTexture;
@@ -67,16 +68,20 @@ public class GameDriver : MonoBehaviour
     [SerializeField] private IntVariable enemyShield;
 
     [SerializeField] private StatusVariable playerStatus;
-    
-    
+
+    public GameObject dialogPanel;
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         mainCamera = Camera.main;
-        cardManager.Initialize();
-        
-        // 设置鼠标图标
         SetCursorTexture();
-
+    }
+    public void StartGameInitialize()
+    {
+        cardManager.Initialize();
         CreatePlayer(playerTemplate);
         CreateEnemy(enemyTemplate);
     }
