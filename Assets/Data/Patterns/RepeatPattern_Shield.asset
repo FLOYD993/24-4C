@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RepeatPattern_Shield
   m_EditorClassIdentifier: 
   Effects:
-  - {fileID: 11400000, guid: 8b373415d7b6aab47a608f1fc912dc57, type: 2}
+  - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
   Times: 1
   Sprite: {fileID: 21300000, guid: 9074ad2755c8c4035b559cdaddbf9230, type: 3}

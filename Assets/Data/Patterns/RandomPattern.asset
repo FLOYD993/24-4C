@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: RandomPattern
   m_EditorClassIdentifier: 
   Effects:
-  - {fileID: 11400000, guid: 58b3c3e1d3a9a41488ff7534e5b2f088, type: 2}
   - {fileID: 11400000, guid: b04453f649609e640b941b2ee52bdcd1, type: 2}
   Probabilities:
   - Value: 75

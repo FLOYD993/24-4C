@@ -11,18 +11,18 @@ public class CharacterDeathManager : BaseManager
     
     public void OnPlayerHpChanged(int hp)
     {
-        if (hp <= 0)
+        if (hp >= 50)
         {
-            EndGame(true);
+            EndGame(false);
         }
     }
 
     public void OnEnemyHpChanged(int hp)
     {
-        if (hp <= 0)
+        if (hp >= 50)
         {
             Enemies[0].OnCharacterDied();
-            EndGame(false);
+            EndGame(true);
         }
     }
 
