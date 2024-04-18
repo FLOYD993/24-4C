@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Data/Cards/lv1.meta
 guid: c1e6a454ac90a7c49b24c8edba201364
 folderAsset: yes
 DefaultImporter:
+========
+guid: e4e42d535b64711488379e6784d2b2d6
+PrefabImporter:
+>>>>>>>> parent of a9b356e (Revert "Merge branch 'myj' of https://github.com/FLOYD993/24-4C into myj"):Assets/Prefabs/UI/enemyTurn.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
