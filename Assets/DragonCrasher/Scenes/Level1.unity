@@ -1253,8 +1253,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.06039989, y: -0.061200023, z: 0}
-    m_Extent: {x: 2.6114001, y: 3.7940001, z: 0}
+    m_Center: {x: 0.061349988, y: -0.04974997, z: 0}
+    m_Extent: {x: 2.6104498, y: 3.78825, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2149,8 +2149,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: -0.92345, y: 2.0894, z: 0}
-    m_Extent: {x: 10.42215, y: 5.1212997, z: 0}
+    m_Center: {x: -0.9320998, y: 2.0881, z: 0}
+    m_Extent: {x: 10.419701, y: 5.1211, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -4100,8 +4100,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0
   m_LocalBounds:
-    m_Center: {x: 0.062649965, y: -0.055349946, z: 0}
-    m_Extent: {x: 2.60695, y: 3.7825499, z: 0}
+    m_Center: {x: 0.06375003, y: -0.055999994, z: 0}
+    m_Extent: {x: 2.60695, y: 3.7872, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5653,6 +5653,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 948648817}
     m_Modifications:
+    - target: {fileID: 321194603228979, guid: 6d688b89b07b175489f88724f6a6f18e, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: ebb3948bcb31542449a24b14bba54e4b, type: 3}
     - target: {fileID: 6490337585022173423, guid: 6d688b89b07b175489f88724f6a6f18e, type: 3}
       propertyPath: m_Name
       value: VideoRawImage
